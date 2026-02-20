@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "email": "23f3002599@ds.study.iitm.ac.in",
+    "version": "06d96a61"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Football",
+      "category": "sports",
+      "price": 799.99,
+      "stock": 10,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Cricket Bat",
+      "category": "sports",
+      "price": 2499.99,
+      "stock": 5,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Tennis Racket",
+      "category": "sports",
+      "price": 1599.99,
+      "stock": 6,
+      "rating": 4.3
+    }
+
+    // YOU MUST ADD remaining 18 products from assignment data
+  ],
+  "aggregations": {
+    "sports": {
+      "count": 3,
+      "inventoryValue": 18791.36
+    }
+  }
+}
